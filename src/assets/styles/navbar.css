@@ -1,0 +1,75 @@
+.header-default .header-inner {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+.header-default.header-absolute {
+  position: absolute;
+  left: 0;
+  background: transparent;
+}
+.navbar-brand h4 {
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+.navbar-brand h4 span{
+    font-family: "Russo One", sans-serif;
+    color:#04ffff
+}
+.header-default {
+  width: 100%;
+  position: relative;
+  z-index: 9;
+  padding: 0 80px;
+  background-color: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header-default .site-logo {
+  min-width: 250px;
+}
+.header-default .site-menu .main-menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 50px;
+  height: 100%;
+  list-style-type: none;
+}
+.header-default .site-logo .navbar-brand {
+  display: block;
+  padding: 20px 0;
+}
+.header-default .site-menu .main-menu .nav-item.active > a {
+  color: #04ffff
+}
+.header-default .site-menu .main-menu .nav-item.active > a::before,
+.header-default .site-menu .main-menu .nav-item:hover > a::before {
+  content: "";
+  background-image: url(../images/menu-hover.png);
+  height: 8px;
+  position: absolute;
+  bottom: 0;
+  left: -5px;
+  right: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+}
+.header-default .site-menu .main-menu .nav-item a {
+  font-size: 20px;
+  padding: 10px 0;
+  color: #ffffff;
+  position: relative;
+}
+.header-default .site-menu .main-menu .nav-item {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.site-content {
+  position: relative;
+  z-index: 2;
+  background-color: #000000;
+}

@@ -1,0 +1,186 @@
+.space-pt {
+  padding: 150px 0 0;
+}
+.section-title .sub-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background: linear-gradient(60deg, #3663d8 -20%, #77beff 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-title .title {
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  font-size: 60px;
+  line-height: 70px;
+  color: white;
+  font-family: "Russo One", sans-serif;
+}
+.attract-hover {
+  display: inline-block;
+}
+.attract-hover-easing {
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.counter.counter-style-1 {
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+}
+.counter {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  color: #ffffff;
+}
+.counter.counter-style-1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 50px;
+  height: 3px;
+  background-color: #77beff;
+  background: linear-gradient(170deg, #3663d8 0%, #77beff 100%);
+}
+.counter .counter-number span {
+  font-family: "Russo One", sans-serif;
+  font-size: 48px;
+}
+.counter.counter-style-1 .counter-info {
+  width: 190px;
+}
+.counter .counter-title {
+  font-family: "Russo One", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+}
+.marquee-item {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 1px;
+  margin: 0px 10px;
+}
+.marquee-item img {
+  width: 50px;
+  height: 50px;
+}
+.marquee-item .title {
+  position: relative;
+  top: 3px;
+  font-family: "Russo One", sans-serif;
+  font-size: 42px;
+  line-height: normal;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+.marquee-item:hover .title {
+  color: #ffffff;
+}
+.marquu .rfm-initial-child-container {
+  gap: 25px;
+}
+.marquu .rfm-marquee-container {
+  overflow-y: hidden;
+}
+.sticky-top {
+  position: sticky;
+  z-index: 1020;
+}
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+}
+.service-wrapper.service-style-1 {
+  position: relative;
+  margin: 0;
+  padding: 60px 40px;
+  background: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-wrapper.service-style-1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  margin: -3px;
+  opacity: 0;
+  border-radius: inherit;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(130deg, #3663d8, #77beff, #00d1ff) 100%;
+}
+.service-wrapper.service-style-1 .service-inner {
+  padding-left: 4px;
+  padding-bottom: 4px;
+  overflow: hidden;
+}
+.service-wrapper.service-style-1 .service-icon {
+  opacity: 1;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.service-wrapper.service-style-1 .bg-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.service-wrapper.service-style-1 .service-content .service-title {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-weight: 600;
+}
+.service-content p {
+  color: white;
+}
+.service-wrapper.service-style-1 .service-content .service-links {
+  opacity: 0;
+  margin-top: 20px;
+  margin-bottom: -70px;
+  transition: all 0.3s ease-in-out;
+}
+.service-wrapper.service-style-1:hover::before {
+  opacity: 1;
+}
+.service-wrapper.service-style-1:hover .service-icon {
+  margin-top: -70px;
+  opacity: 0;
+}
+.service-wrapper.service-style-1:hover .bg-icon {
+  opacity: 0.2;
+}
+.service-wrapper.service-style-1:hover .service-content .service-links {
+  margin-bottom: 0;
+  opacity: 1;
+}
+.ellipse-top {
+  background-image: url("../images/ellipse-top.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.services.grid-wrapper.service-top-space {
+  margin-top: 100px;
+}
+.service-wrapper.service-style-1:hover {
+  border: 2px solid #00d1ff;
+}

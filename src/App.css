@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  /* font-family: "Russo One", sans-serif; */
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  color: #D4D6D7;
+}
