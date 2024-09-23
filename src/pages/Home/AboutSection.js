@@ -2,7 +2,7 @@ import React from "react";
 import About1 from "../../assets/images/about-01.jpg";
 import About3 from "../../assets/images/about-03.jpg";
 import Icon from "../../assets/images/subtitle-icon.png";
-import "../../assets/styles/About.css";
+
 
 
 const AboutSection = () => {
@@ -16,7 +16,7 @@ const AboutSection = () => {
                 <span class="sub-title">
                   <img class="img-fluid" src={Icon} alt="" /> About Us
                 </span>
-                <h2 class="title"> Your experience is everything to us </h2>
+                <h2 class="title "> Your experience is everything to us </h2>
               </div>
 
               <div class="row">

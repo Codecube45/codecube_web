@@ -1,0 +1,74 @@
+.location-wrapper.location-style-1 {
+  display: flex;
+  align-items: flex-end;
+  padding: 45px;
+  min-height: 380px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.location-wrapper.location-style-1 .location-inner {
+  overflow: hidden;
+}
+.location-wrapper.location-style-1 .city-image {
+  position: relative;
+}
+.location-wrapper.location-style-1 .city-info {
+  margin-top: 20px;
+}
+.location-wrapper.location-style-1 .city-info .city-name {
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+  font-family: "Russo One", sans-serif;
+  font-size: 26px;
+}
+.location-wrapper.location-style-1 .city-location {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.location-wrapper.location-style-1 .city-location .location-item {
+  display: flex;
+  align-items: baseline;
+}
+.location-wrapper.location-style-1 .city-location .location-item .icon {
+  width: 25px;
+  flex: none;
+  margin-right: 15px;
+}
+.location-wrapper.location-style-1:hover {
+  border-color: #77beff;
+}
+
+.location-wrapper.location-style-1:hover .city-info .city-name {
+  background: linear-gradient(60deg, #3663d8 -20%, #77beff 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.city-name a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+form.form-style-border .form-control {
+  padding: 15px 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+form .form-control {
+  position: relative;
+  font-size: 18px;
+  line-height: normal;
+  border-radius: 0px;
+  padding: 15px 0px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #d4d6d7;
+  margin-bottom: 30px;
+}
+form .form-control::placeholder {
+  color: white;
+}

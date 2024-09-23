@@ -4,6 +4,12 @@ import index from "./pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import AnimatedCursor from "react-animated-cursor";
+import Index from "./pages/Contact/Index";
+import { config } from "./pages/config";
+import AboutUs from "./pages/About/AboutUs";
+import Blogs from "./pages/Blog/Blogs";
+import BlogDetails from "./pages/Blog/BlogDetails";
+import "./assets/styles/About.css";
 
 function App() {
   return (
@@ -31,7 +37,11 @@ function App() {
       /> */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" Component={index} />
+          <Route path={`${config.appUrl}`}Component={index} />
+          <Route path={`${config.appUrl}contact-us`} Component={Index} />
+          <Route path={`${config.appUrl}about-us`} Component={AboutUs} />
+          <Route path={`${config.appUrl}blog`} Component={Blogs} />
+          <Route path={`${config.appUrl}blog-detail/:slug`} Component={BlogDetails} />
         </Routes>
       </BrowserRouter>
     </div>

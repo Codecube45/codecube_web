@@ -187,3 +187,29 @@
     transform: rotate3d(0, 0, 1, 360deg);
   }
 }
+
+/* Inner Banner */
+
+.inner-header {
+  position: relative;
+  z-index: 5;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2563ad;
+  background-blend-mode: multiply;
+  top: 95px;
+}
+.bg-holder {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.inner-header .title {
+  color: #ffffff;
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-family: "Russo One", sans-serif;
+}
