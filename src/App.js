@@ -10,6 +10,7 @@ import AboutUs from "./pages/About/AboutUs";
 import Blogs from "./pages/Blog/Blogs";
 import BlogDetails from "./pages/Blog/BlogDetails";
 import "./assets/styles/About.css";
+import Service from "./pages/Service/Service";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path={`${config.appUrl}about-us`} Component={AboutUs} />
           <Route path={`${config.appUrl}blog`} Component={Blogs} />
           <Route path={`${config.appUrl}blog-detail/:slug`} Component={BlogDetails} />
+          <Route path={`${config.appUrl}our-services`} Component={Service} />
         </Routes>
       </BrowserRouter>
     </div>

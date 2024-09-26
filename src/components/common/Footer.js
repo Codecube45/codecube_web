@@ -2,6 +2,8 @@ import React from "react";
 import Address from "../../assets/images/address-info-contacts.svg";
 import Mobile from "../../assets/images/address-info-headphone.svg";
 import Email from "../../assets/images/address-info-email.svg";
+import { Link } from "react-router-dom";
+import { config } from "../../pages/config";
 
 const Footer = () => {
 
@@ -62,31 +64,28 @@ const Footer = () => {
                     <h6 class="widget-title">Quick Links</h6>
                     <ul class="list-unstyled list-col-3 mb-0">
                       <li>
-                        <a href="index.html">Home</a>
+                        <Link to={`${config.appUrl}`}>Home</Link>
                       </li>
                       <li>
-                        <a href="about-us.html">About us</a>
+                        <Link to={`${config.appUrl}about-us`} >About us</Link>
                       </li>
                       <li>
-                        <a href="team.html">Team</a>
+                        <Link to={`${config.appUrl}our-services`} >Our Services</Link>
                       </li>
                       <li>
-                        <a href="team-single.html">Team Single</a>
+                        <Link to={`${config.appUrl}blogs`} >Blogs</Link>
                       </li>
                       <li>
-                        <a href="service.html">Service</a>
+                        <Link to={`${config.appUrl}contact-us`} >Contact Us</Link>
                       </li>
                       <li>
-                        <a href="service-detail.html">Service Single</a>
+                        <Link to={`${config.appUrl}our-services#website`} >Web Development</Link>
                       </li>
                       <li>
-                        <a href="blog.html">Blog</a>
+                        <Link to={`${config.appUrl}our-services#digital`} >Digital Marketing</Link>
                       </li>
                       <li>
-                        <a href="blog-detail.html">Blog Single</a>
-                      </li>
-                      <li>
-                        <a href="contact-us.html">Contact</a>
+                        <Link to={`${config.appUrl}our-services#wordpress`}>WordPress </Link>
                       </li>
                     </ul>
                   </div>

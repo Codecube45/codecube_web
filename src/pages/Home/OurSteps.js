@@ -1,6 +1,8 @@
 import React from "react";
 import Icon1 from "../../assets/images/Information-Security.svg";
 import Icon2 from "../../assets/images/Information-Security-color.svg";
+import Icon from "../../assets/images/subtitle-icon.png";
+import Arrow from "../../assets/images/arrow-right.png";
 
 const OurSteps = () => {
   return (
@@ -13,12 +15,7 @@ const OurSteps = () => {
                 <div class="sticky-top" style={{ top: "80px" }}>
                   <div class="section-title">
                     <span class="sub-title">
-                      <img
-                        class="img-fluid"
-                        src="images/subtitle-icon.png"
-                        alt=""
-                      />{" "}
-                      Our Steps
+                      <img class="img-fluid" src={Icon} alt="" /> Our Steps
                     </span>
                     <h2 class="title">
                       {" "}
@@ -56,36 +53,7 @@ const OurSteps = () => {
                             </p>
                             <div class="service-links">
                               <a class="btn-arrow" href="#">
-                                <svg
-                                  width="17"
-                                  height="16"
-                                  viewBox="0 0 17 16"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_923_133)">
-                                    <path
-                                      d="M8.70801 0.959961L9.29825 2.7665C10.2512 5.68321 12.8308 7.77453 15.8928 8.1128C12.8468 8.37564 10.2578 10.4348 9.3276 13.3343L8.70801 15.2657"
-                                      stroke="inherit"
-                                      stroke-width="2"
-                                    ></path>
-                                    <path
-                                      d="M15.7602 8.12158H0.1875"
-                                      stroke="inherit"
-                                      stroke-width="2"
-                                    ></path>
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_923_133">
-                                      <rect
-                                        width="15.904"
-                                        height="14.8437"
-                                        fill="inherit"
-                                        transform="translate(0.1875 0.578125)"
-                                      ></rect>
-                                    </clipPath>
-                                  </defs>
-                                </svg>
+                                <img src={Arrow} />
                               </a>
                             </div>
                           </div>
@@ -108,36 +76,7 @@ const OurSteps = () => {
                             </p>
                             <div class="service-links">
                               <a class="btn-arrow" href="#">
-                                <svg
-                                  width="17"
-                                  height="16"
-                                  viewBox="0 0 17 16"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_923_134)">
-                                    <path
-                                      d="M8.70801 0.959961L9.29825 2.7665C10.2512 5.68321 12.8308 7.77453 15.8928 8.1128C12.8468 8.37564 10.2578 10.4348 9.3276 13.3343L8.70801 15.2657"
-                                      stroke="inherit"
-                                      stroke-width="2"
-                                    ></path>
-                                    <path
-                                      d="M15.7602 8.12158H0.1875"
-                                      stroke="inherit"
-                                      stroke-width="2"
-                                    ></path>
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_923_134">
-                                      <rect
-                                        width="15.904"
-                                        height="14.8437"
-                                        fill="inherit"
-                                        transform="translate(0.1875 0.578125)"
-                                      ></rect>
-                                    </clipPath>
-                                  </defs>
-                                </svg>
+                                <img src={Arrow} />
                               </a>
                             </div>
                           </div>
@@ -164,36 +103,7 @@ const OurSteps = () => {
                             </p>
                             <div class="service-links">
                               <a class="btn-arrow" href="#">
-                                <svg
-                                  width="17"
-                                  height="16"
-                                  viewBox="0 0 17 16"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_923_136)">
-                                    <path
-                                      d="M8.70801 0.959961L9.29825 2.7665C10.2512 5.68321 12.8308 7.77453 15.8928 8.1128C12.8468 8.37564 10.2578 10.4348 9.3276 13.3343L8.70801 15.2657"
-                                      stroke="inherit"
-                                      stroke-width="2"
-                                    ></path>
-                                    <path
-                                      d="M15.7602 8.12158H0.1875"
-                                      stroke="inherit"
-                                      stroke-width="2"
-                                    ></path>
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_923_136">
-                                      <rect
-                                        width="15.904"
-                                        height="14.8437"
-                                        fill="inherit"
-                                        transform="translate(0.1875 0.578125)"
-                                      ></rect>
-                                    </clipPath>
-                                  </defs>
-                                </svg>
+                                <img src={Arrow} />
                               </a>
                             </div>
                           </div>
@@ -216,36 +126,7 @@ const OurSteps = () => {
                             </p>
                             <div class="service-links">
                               <a class="btn-arrow" href="#">
-                                <svg
-                                  width="17"
-                                  height="16"
-                                  viewBox="0 0 17 16"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_923_137)">
-                                    <path
-                                      d="M8.70801 0.959961L9.29825 2.7665C10.2512 5.68321 12.8308 7.77453 15.8928 8.1128C12.8468 8.37564 10.2578 10.4348 9.3276 13.3343L8.70801 15.2657"
-                                      stroke="inherit"
-                                      stroke-width="2"
-                                    ></path>
-                                    <path
-                                      d="M15.7602 8.12158H0.1875"
-                                      stroke="inherit"
-                                      stroke-width="2"
-                                    ></path>
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_923_137">
-                                      <rect
-                                        width="15.904"
-                                        height="14.8437"
-                                        fill="inherit"
-                                        transform="translate(0.1875 0.578125)"
-                                      ></rect>
-                                    </clipPath>
-                                  </defs>
-                                </svg>
+                                <img src={Arrow} />
                               </a>
                             </div>
                           </div>

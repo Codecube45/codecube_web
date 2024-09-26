@@ -20,12 +20,12 @@ const Navbar = ({ inner }) => {
       >
         <div className="header-inner">
           <div className="site-logo">
-            <a className="navbar-brand d-flex gap-3 align-items-center">
+            <Link to={`${config.appUrl}`} className="navbar-brand d-flex gap-3 align-items-center">
               <img className="img-fluid" src={mainLogo} alt="logo" width="47" />
               <h4 className="text-white mb-0">
                 Code <span>Cube</span>{" "}
               </h4>
-            </a>
+            </Link>
           </div>
           <div className="site-menu d-none d-xl-block">
             <ul className="main-menu">
@@ -38,10 +38,17 @@ const Navbar = ({ inner }) => {
                   Home <i className="fa-solid fa-chevron-down"></i>
                 </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Our Service <i className="fa-solid fa-chevron-down"></i>
-                </a>
+              <li className={`nav-item ${
+                  location?.pathname == `${config.appUrl}our-services` ? "active" : ""
+                }`}>
+                <Link to={`${config.appUrl}our-services`} className="nav-link" href="#">
+                  Our Service 
+                </Link>
+                <ul class="submenu">
+                  <li><Link class="nav-link" to={`${config.appUrl}our-srvicese#website`}>Website Development</Link></li>
+                  <li><Link class="nav-link" to={`${config.appUrl}our-services#digital`}>Digital Marketing</Link></li>
+                  <li><Link class="nav-link" to={`${config.appUrl}our-services#wordpress`}>WordPress Development</Link></li>
+                </ul>
               </li>
               <li
                 className={`nav-item ${

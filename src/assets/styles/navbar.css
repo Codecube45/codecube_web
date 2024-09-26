@@ -215,3 +215,38 @@
   font-size: 18px;
   font-family: "Russo One", sans-serif;
 }
+.header-default .site-menu .main-menu .submenu {
+  background: #212121;
+  list-style-type: none;
+  position: absolute;
+  left: -20px;
+  top: 64px;
+  z-index: 2;
+  min-width: 230px;
+  opacity: 0;
+  visibility: hidden;
+  padding: 15px 0;
+  margin-top: 15px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.header-default .site-menu .main-menu .nav-item:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0;
+}
+.header-default .site-menu .main-menu .submenu li {
+  padding: 0 25px;
+}
+.header-default .site-menu .main-menu .submenu li a {
+  font-size: 16px;
+  padding: 8px 0;
+}
+.header-default .site-menu .main-menu .nav-item a {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  padding: 10px 0;
+  color: #ffffff;
+  position: relative;
+}

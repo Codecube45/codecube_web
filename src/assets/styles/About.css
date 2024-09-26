@@ -665,3 +665,48 @@ blockquote.blockquote-style-1 {
 .radius-10 {
   border-radius: 10px;
 }
+
+/* Our Services */
+
+.rated-reviews {
+  padding: 25px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.rated-reviews h6 {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Jost", sans-serif;
+}
+.rated-reviews span {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Russo One", sans-serif;
+}
+.rated-reviews h6 a {
+  font-weight: 700;
+  background: linear-gradient(60deg, #3663D8 -20%, #77BEFF 100%);
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-img .about-logo {
+  position: absolute;
+  left: 80px;
+  top: 30px;
+}
+.ant-progress-inner{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.marquee-wrapper.marquee-border {
+  padding: 25px 0;
+  overflow: visible;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.marquee-wrapper.marquee-rotate {
+  transform: rotate(2.2deg);
+}

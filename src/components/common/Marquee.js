@@ -24,19 +24,21 @@ const Marquee = () => {
     },
   ];
   return (
-    <div className="space-medium-ptb marquu">
-      <MarqueeSlide>
-        {technologies?.map((obj, i) => {
-          return (
-            <div class="marquee-item" key={i}>
-              <span class="icon">
-                <img class="img-fluid" src={obj.image} alt="" />
-              </span>
-              <span class="title">{obj.name}</span>
-            </div>
-          );
-        })}
-      </MarqueeSlide>
+    <div className="space-medium-ptb ">
+      <div className="marquu marquee-wrapper marquee-border marquee-rotate">
+        <MarqueeSlide>
+          {technologies?.map((obj, i) => {
+            return (
+              <div class="marquee-item" key={i}>
+                <span class="icon">
+                  <img class="img-fluid" src={obj.image} alt="" />
+                </span>
+                <span class="title">{obj.name}</span>
+              </div>
+            );
+          })}
+        </MarqueeSlide>
+      </div>
     </div>
   );
 };
