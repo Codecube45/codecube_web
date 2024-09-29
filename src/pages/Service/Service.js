@@ -56,23 +56,18 @@ const Service = () => {
                 </div>
                 <div class="ps-0 ps-lg-4 ps-xl-5">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore
+                   we create innovative and custom web solutions designed to help businesses thrive in the digital world. With a focus on user experience, responsive design, and cutting-edge technology, we build websites and web applications that not only look great but deliver outstanding performance. Our team of experienced developers and designers are dedicated to turning your vision into reality, whether it's a business website, e-commerce platform, or a complex web application.
                   </p>
                   <div class="skill-wrapper pt-2">
                     <div class="skill skill-style-2 d-flex justify-content-between">
                       <div class="skill-title">
                         Project success percentage rate
                       </div>
-                      <span class="progress-number animated fadeIn">%60</span>
+                      <span class="progress-number animated fadeIn">%90</span>
                     </div>
                     <div>
                       <Progress
-                        percent={80}
+                        percent={90}
                         strokeColor="#4f86e4"
                         showInfo={false}
                       />
@@ -93,27 +88,27 @@ const Service = () => {
                         <ul class="list col-2">
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Marketing Strategy
+                            Custom Web Development
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Paid Media
+                            E-commerce Solutions
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Influencer Marketing
+                            UX/UI Design
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Marketing Strategy
+                            Web App Development
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Paid Media
+                            CMS Development
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Influencer Marketing
+                            Website Maintenance & Support
                           </li>
                         </ul>
                       </div>
@@ -138,27 +133,23 @@ const Service = () => {
                   <span class="sub-title">
                     <img class="img-fluid" src={Icon} alt="" /> Our Services
                   </span>
-                  <h2 class="title"> Web Development </h2>
+                  <h2 class="title"> Digital marketing </h2>
                 </div>
                 <div class="ps-0 ps-lg-4 ps-xl-5">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore
+                  we understand that a beautifully designed website is just the beginning. To truly succeed online, you need a comprehensive digital marketing strategy that drives traffic, engages visitors, and converts them into customers. Our full-suite digital marketing services are designed to help businesses maximize their online potential and achieve measurable results.
+                  we offer a full range of digital marketing services to help businesses maximize their online visibility and reach their target audience. Our expertise in SEO, PPC, social media marketing, content creation, and email marketing ensures that your business gets the attention it deserves. We create data-driven strategies tailored to your goals, driving more traffic, increasing engagement, and boosting conversions.
                   </p>
                   <div class="skill-wrapper pt-2">
                     <div class="skill skill-style-2 d-flex justify-content-between">
                       <div class="skill-title">
                         Project success percentage rate
                       </div>
-                      <span class="progress-number animated fadeIn">%60</span>
+                      <span class="progress-number animated fadeIn">%70</span>
                     </div>
                     <div>
                       <Progress
-                        percent={80}
+                        percent={70}
                         strokeColor="#4f86e4"
                         showInfo={false}
                       />
@@ -169,7 +160,7 @@ const Service = () => {
                       <span>
                         5 <i class="bi bi-star-fill"></i>{" "}
                       </span>{" "}
-                      Rated 4.80 out of 5 based on over{" "}
+                      Rated 3.80 out of 5 based on over{" "}
                       <a href="#"> 1000+ reviews</a>
                     </h6>
                   </div>
@@ -179,27 +170,27 @@ const Service = () => {
                         <ul class="list col-2">
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Marketing Strategy
+                            Search Engine Optimization (SEO)
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Paid Media
+                            Pay-Per-Click (PPC) Advertising
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Influencer Marketing
+                            Social Media Marketing
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Marketing Strategy
+                            Content Marketing
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Paid Media
+                            Email Marketing
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Influencer Marketing
+                            Conversion Rate Optimization (CRO)
                           </li>
                         </ul>
                       </div>
@@ -240,23 +231,18 @@ const Service = () => {
                   <span class="sub-title">
                     <img class="img-fluid" src={Icon} alt="" /> Our Services
                   </span>
-                  <h2 class="title"> Web Development </h2>
+                  <h2 class="title">Wordpress Development </h2>
                 </div>
                 <div class="ps-0 ps-lg-4 ps-xl-5">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore
+                  we specialize in creating custom, responsive, and SEO-friendly WordPress websites tailored to your business needs. From theme customization and plugin development to full-scale WooCommerce stores, we deliver high-performance websites that grow with your business. Our expert developers ensure seamless functionality, fast loading times, and robust security. Whether you’re starting fresh or enhancing an existing site, we provide ongoing support to keep your WordPress site optimized and secure.
                   </p>
                   <div class="skill-wrapper pt-2">
                     <div class="skill skill-style-2 d-flex justify-content-between">
                       <div class="skill-title">
                         Project success percentage rate
                       </div>
-                      <span class="progress-number animated fadeIn">%60</span>
+                      <span class="progress-number animated fadeIn">%80</span>
                     </div>
                     <div>
                       <Progress
@@ -271,7 +257,7 @@ const Service = () => {
                       <span>
                         5 <i class="bi bi-star-fill"></i>{" "}
                       </span>{" "}
-                      Rated 4.80 out of 5 based on over{" "}
+                      Rated 4.00 out of 5 based on over{" "}
                       <a href="#"> 1000+ reviews</a>
                     </h6>
                   </div>
@@ -281,27 +267,27 @@ const Service = () => {
                         <ul class="list col-2">
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Marketing Strategy
+                            Custom WordPress Website Development
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Paid Media
+                            WordPress Theme Development & Customization
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Influencer Marketing
+                            WordPress Plugin Development
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Marketing Strategy
+                            WooCommerce Development
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Paid Media
+                            WordPress Migration
                           </li>
                           <li>
                             <img class="img-fluid" src={ArrowRight} alt="" />
-                            Influencer Marketing
+                            WordPress Maintenance & Support
                           </li>
                         </ul>
                       </div>

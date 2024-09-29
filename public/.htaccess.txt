@@ -1,0 +1,7 @@
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+
+RewriteCond %{HTTP_HOST} ^codecube.co.in$
+RewriteRule (.*) https://codecube.co.in$1 [R=301,L]

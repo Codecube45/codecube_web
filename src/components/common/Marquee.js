@@ -1,25 +1,29 @@
 import React from "react";
 import MarqueeSlide from "react-fast-marquee";
-import Icons1 from "../../assets/images/banner-shape-01.png";
+import Icons1 from "../../assets/images/ReactLogo.png";
 import Icons2 from "../../assets/images/brand-icon3.png";
 import Icons3 from "../../assets/images/brand-icon4.png";
 
 const Marquee = () => {
   const technologies = [
     {
-      name: "ISO Developer",
+      name: "React Js",
       image: Icons1,
     },
     {
-      name: "ISO Developer",
+      name: "WordPress",
       image: Icons2,
     },
     {
-      name: "ISO Developer",
-      image: Icons1,
+      name: "PHP & Laravel",
+      image: Icons3,
     },
     {
-      name: "ISO Developer",
+      name: "Codingniter",
+      image: Icons2,
+    },
+    {
+      name: "Node JS",
       image: Icons3,
     },
   ];

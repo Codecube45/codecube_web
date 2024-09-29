@@ -60,7 +60,7 @@ const Navbar = ({ inner }) => {
                   <li>
                     <Link
                       class="nav-link"
-                      to={`${config.appUrl}our-srvicese#website`}
+                      to={`${config.appUrl}our-services#website`}
                     >
                       Website Development
                     </Link>
