@@ -1,0 +1,44 @@
+.dots {
+width: 80px;
+  height: 20px;
+  background: radial-gradient(
+      circle closest-side at left 6.7px top 50%,
+      #474bff 90%,
+      #0000
+    ),
+    radial-gradient(circle closest-side, #474bff 90%, #0000),
+    radial-gradient(
+      circle closest-side at right 6.7px top 50%,
+      #474bff 90%,
+      #0000
+    );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  animation: dots-xm0185md 1s infinite alternate;
+}
+
+@keyframes dots-xm0185md {
+  to {
+    width: 22.4px;
+    height: 26.9px;
+  }
+}
+.bg-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 48%;
+  z-index: 9999;
+}
+.bg-overlay::before{
+    content: "";
+    position: fixed;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

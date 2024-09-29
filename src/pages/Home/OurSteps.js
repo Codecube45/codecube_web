@@ -24,10 +24,16 @@ const OurSteps = () => {
                   </div>
                   <div class="ps-xxl-5 ms-0 ms-md-5">
                     <p className="text-white">
-                      We all know that nothing moves until someone makes a
-                      decision. The first action is always in making the
-                      decision to proceed. which most people overlook, we don’t
-                      do it intentionally or with malice.
+                      our mission is to empower businesses by delivering
+                      innovative, high-quality web solutions that drive growth
+                      and digital transformation. We are committed to creating
+                      websites and applications that not only meet our clients’
+                      needs but also exceed their expectations. Through
+                      cutting-edge technology, user-centric design, and
+                      exceptional customer service, we strive to help businesses
+                      thrive in the digital age. Our goal is to be a trusted
+                      partner, building long-term relationships by consistently
+                      providing value and helping our clients succeed online.
                     </p>
                   </div>
                 </div>
@@ -45,11 +51,12 @@ const OurSteps = () => {
                             <img class="img-fluid" src={Icon2} alt="#" />
                           </div>
                           <div class="service-content">
-                            <h5 class="service-title">Information Security</h5>
+                            <h5 class="service-title">
+                              Custom Web Development
+                            </h5>
                             <p>
-                              Remind yourself of someone you know who died
-                              suddenly and the fact that there is no guarantee
-                              that tomorrow
+                              Tailored websites and web applications designed to
+                              meet your unique business needs.
                             </p>
                             <div class="service-links">
                               <a class="btn-arrow" href="#">
@@ -68,11 +75,10 @@ const OurSteps = () => {
                             <img class="img-fluid" src={Icon2} alt="#" />
                           </div>
                           <div class="service-content">
-                            <h5 class="service-title">Data Synchronization</h5>
+                            <h5 class="service-title">SEO Optimization</h5>
                             <p>
-                              Remind yourself of someone you know who died
-                              suddenly and the fact that there is no guarantee
-                              that tomorrow
+                              Built-in search engine optimization to increase
+                              visibility and drive organic traffic.
                             </p>
                             <div class="service-links">
                               <a class="btn-arrow" href="#">
@@ -95,11 +101,11 @@ const OurSteps = () => {
                             <img class="img-fluid" src={Icon2} alt="#" />
                           </div>
                           <div class="service-content">
-                            <h5 class="service-title">Process Automation</h5>
+                            <h5 class="service-title">Maintenance & Support</h5>
                             <p>
-                              It must come from the natural product of your
-                              desire to achieve something and your belief that
-                              you are capable.
+                              Ongoing technical support, updates, and
+                              performance monitoring to ensure your website
+                              stays up-to-date and secure.
                             </p>
                             <div class="service-links">
                               <a class="btn-arrow" href="#">
@@ -118,11 +124,13 @@ const OurSteps = () => {
                             <img class="img-fluid" src={Icon2} alt="#" />
                           </div>
                           <div class="service-content">
-                            <h5 class="service-title">Mobile Platforms</h5>
+                            <h5 class="service-title">
+                              Web Hosting & Deployment
+                            </h5>
                             <p>
-                              There is really no magic to it and it’s not
-                              reserved only for a select few people. As such,
-                              success really has nothing.
+                              Reliable hosting solutions and efficient
+                              deployment strategies for maximum uptime and
+                              performance.
                             </p>
                             <div class="service-links">
                               <a class="btn-arrow" href="#">

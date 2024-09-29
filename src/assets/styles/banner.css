@@ -213,3 +213,156 @@
   margin-bottom: 20px;
   font-family: "Russo One", sans-serif;
 }
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+  .main-banner-1 {
+    height: 650px;
+    padding-top: 125px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Page Section Padding */
+  .space-ptb {
+    padding: 90px 0;
+  }
+  .space-pt {
+    padding: 90px 0 0;
+  }
+  .space-pb {
+    padding: 0 0 90px;
+  }
+  .space-mb {
+    margin: 0 0 90px;
+  }
+  .space-medium-ptb {
+    padding: 70px 0;
+  }
+  .space-medium-pt {
+    padding: 70px 0 0;
+  }
+  .space-medium-pb {
+    padding: 0 0 70px;
+  }
+  .space-small-ptb {
+    padding: 50px 0;
+  }
+  .space-small-pt {
+    padding: 50px 0 0;
+  }
+  .space-small-pb {
+    padding: 0 0 50px;
+  }
+  .padding-start {
+    padding-left: 20px;
+  }
+  .padding-end {
+    padding-right: 20px;
+  }
+  .full-width {
+    padding: 0 30px;
+  }
+  /* Page Section Margin */
+  .space-mtb {
+    margin: 90px 0;
+  }
+  .space-mt {
+    margin: 90px 0 0;
+  }
+  .space-mb {
+    margin: 0 0 90px;
+  }
+  .space-medium-mtb {
+    margin: 70px 0;
+  }
+  .space-medium-mt {
+    margin: 70px 0 0;
+  }
+  .space-medium-mb {
+    margin: 0 0 70px;
+  }
+  .space-small-mtb {
+    margin: 50px 0;
+  }
+  .space-small-mt {
+    margin: 50px 0 0;
+  }
+  .space-small-mb {
+    margin: 0 0 50px;
+  }
+  .margin-start {
+    margin-left: 20px;
+  }
+  .margin-end {
+    margin-right: 20px;
+  }
+  .cursor,
+  .cursor-follower {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-banner-1 .banner-content h2 {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .main-banner-1 .banner-content h2 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .main-banner-1 .rotate-img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .main-banner-1 .banner-content {
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .main-banner-1 .banner-content {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .main-banner-1 .banner-title {
+    font-size: 47px;
+    line-height: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .main-banner-1 .banner-title {
+    line-height: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .main-banner-1 .banner-content {
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .main-banner-1 .banner-content {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .main-banner-1 .banner-content .attract-hover {
+    position: inherit;
+    right: inherit;
+  }
+}

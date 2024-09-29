@@ -25,9 +25,8 @@ const AboutSection = () => {
                 </div>
                 <div class="col-sm-8">
                   <p class="ps-lg-3 mt-4 mt-sm-0 text-white fs-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
+                  we specialize in crafting custom, high-performance websites that deliver results. Our expert team blends cutting-edge technology with user-focused design to create responsive, scalable, and innovative web solutions. Whether you need an e-commerce platform or a dynamic web app, we’re here to help your business thrive in the digital world.
+
                   </p>
                   <div class="d-flex justify-content-center mt-5 ms-sm-5 ms-0">
                     <div class="attract-hover">

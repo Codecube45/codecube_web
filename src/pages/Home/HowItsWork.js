@@ -21,14 +21,16 @@ const HowItsWork = () => {
                 </div>
                 <div className="ps-xxl-5 ms-0 ms-md-5 pb-5 pb-lg-0">
                   <p className="mb-5 text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Our web development process is designed to ensure the
+                    success of your project from start to finish. We begin with
+                    thorough discovery and planning to align with your goals,
+                    followed by user-focused design that prioritizes an
+                    intuitive experience. Our developers then build responsive,
+                    scalable websites using the latest technologies, ensuring
+                    seamless integration. After rigorous testing for quality and
+                    performance, we launch and optimize your site for ongoing
+                    success. Post-launch, we provide maintenance and support to
+                    keep your website secure and up-to-date.
                   </p>
                   <div className="attract-hover">
                     <div
@@ -83,17 +85,17 @@ const HowItsWork = () => {
                   </div>
                   <div className="step-info">
                     <span className="step-number">Step 01</span>
-                    <h3 className="step-title">Let us know your need</h3>
+                    <h3 className="step-title">Discovery & Planning</h3>
                     <p>
-                      The bottom line is that we must shed the bad and replace
-                      with good beliefs.
+                      <img className="img-fluid pe-2" src={arrowIcon} alt="" />
+                      We begin by understanding your business goals, target
+                      audience, and project requirements. Through in-depth
+                      research and consultation, we create a tailored roadmap
+                      that aligns with your vision.
                     </p>
-                    <div className="list-wrapper">
+                    {/* <div className="list-wrapper">
                       <ul className="step-list list col-2">
-                        <li>
-                          <img className="img-fluid" src={arrowIcon} alt="" />
-                          E-commerce strategy
-                        </li>
+                        <li>E-commerce strategy</li>
                         <li>
                           <img className="img-fluid" src={arrowIcon} alt="" />
                           Business intelligence
@@ -115,7 +117,7 @@ const HowItsWork = () => {
                           Front-End development
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                     <div className="step-image">
                       <img className="img-fluid" src={StepOne} alt="" />
                     </div>
@@ -129,12 +131,15 @@ const HowItsWork = () => {
                   </div>
                   <div className="step-info">
                     <span className="step-number">Step 02</span>
-                    <h3 className="step-title">Meet the team</h3>
+                    <h3 className="step-title">Design & User Experience</h3>
                     <p>
-                      “Nothing changes until something moves” – this is the
-                      battle cry of author and journalist Robert Ringer.
+                      <img className="img-fluid pe-2" src={arrowIcon} alt="" />
+                      Our design team focuses on creating a visually appealing
+                      and intuitive user interface (UI) that enhances user
+                      experience (UX). Every design is crafted with usability
+                      and accessibility in mind to ensure maximum engagement.
                     </p>
-                    <div className="list-wrapper">
+                    {/* <div className="list-wrapper">
                       <ul className="step-list list col-2">
                         <li>
                           <img className="img-fluid" src={arrowIcon} alt="" />
@@ -145,7 +150,7 @@ const HowItsWork = () => {
                           Business intelligence
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                     <div className="step-image">
                       <img className="img-fluid" src={StepOne} alt="" />
                     </div>
@@ -159,12 +164,16 @@ const HowItsWork = () => {
                   </div>
                   <div className="step-info">
                     <span className="step-number">Step 03</span>
-                    <h3 className="step-title">Find Your Ideal Itinfinite</h3>
+                    <h3 className="step-title">Development & Integration</h3>
                     <p>
-                      Get the oars in the water and start rowing. Execution is
-                      the single biggest factor in achievement.
+                      <img className="img-fluid pe-2" src={arrowIcon} alt="" />
+                      Using the latest web technologies and frameworks, our
+                      developers turn designs into fully functional, responsive,
+                      and scalable websites. We ensure seamless integration with
+                      databases, third-party tools, and any other systems
+                      required
                     </p>
-                    <div className="list-wrapper">
+                    {/* <div className="list-wrapper">
                       <ul className="step-list list col-2">
                         <li>
                           <img className="img-fluid" src={arrowIcon} alt="" />
@@ -179,7 +188,81 @@ const HowItsWork = () => {
                           Accounting Outsourcing
                         </li>
                       </ul>
+                    </div> */}
+                    <div className="step-image">
+                      <img className="img-fluid" src={StepOne} alt="" />
                     </div>
+                  </div>
+                </div>
+                <div className="steps-item">
+                  <div className="step-arrow">
+                    <a className="btn-arrow" href="#">
+                      <img className="img-fluid" src={arrowIcon} alt="" />
+                    </a>
+                  </div>
+                  <div className="step-info">
+                    <span className="step-number">Step 04</span>
+                    <h3 className="step-title">Testing & Quality Assurance</h3>
+                    <p>
+                      <img className="img-fluid pe-2" src={arrowIcon} alt="" />
+                      We rigorously test every website across devices and
+                      browsers to ensure top performance, security, and
+                      functionality. Our QA process guarantees a smooth user
+                      experience before launching your site.
+                    </p>
+                    {/* <div className="list-wrapper">
+                      <ul className="step-list list col-2">
+                        <li>
+                          <img className="img-fluid" src={arrowIcon} alt="" />
+                          /Digital PR
+                        </li>
+                        <li>
+                          <img className="img-fluid" src={arrowIcon} alt="" />
+                          Technical Operations
+                        </li>
+                        <li>
+                          <img className="img-fluid" src={arrowIcon} alt="" />
+                          Accounting Outsourcing
+                        </li>
+                      </ul>
+                    </div> */}
+                    <div className="step-image">
+                      <img className="img-fluid" src={StepOne} alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div className="steps-item">
+                  <div className="step-arrow">
+                    <a className="btn-arrow" href="#">
+                      <img className="img-fluid" src={arrowIcon} alt="" />
+                    </a>
+                  </div>
+                  <div className="step-info">
+                    <span className="step-number">Step 05</span>
+                    <h3 className="step-title">Launch & Optimization</h3>
+                    <p>
+                      <img className="img-fluid pe-2" src={arrowIcon} alt="" />
+                      Once approved, we launch your website and monitor its
+                      performance. We continuously analyze metrics and optimize
+                      for speed, SEO, and user engagement, ensuring long-term
+                      success
+                    </p>
+                    {/* <div className="list-wrapper">
+                      <ul className="step-list list col-2">
+                        <li>
+                          <img className="img-fluid" src={arrowIcon} alt="" />
+                          /Digital PR
+                        </li>
+                        <li>
+                          <img className="img-fluid" src={arrowIcon} alt="" />
+                          Technical Operations
+                        </li>
+                        <li>
+                          <img className="img-fluid" src={arrowIcon} alt="" />
+                          Accounting Outsourcing
+                        </li>
+                      </ul>
+                    </div> */}
                     <div className="step-image">
                       <img className="img-fluid" src={StepOne} alt="" />
                     </div>

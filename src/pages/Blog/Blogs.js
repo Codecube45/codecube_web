@@ -11,21 +11,21 @@ import { slugGenerator } from "../utils/slugGenerator";
 const Blogs = () => {
   const blogs = [
     {
-      date: "December 12, 2023",
-      title: "Ways of lying to yourself about.",
-      category: "Branding",
+      date: "September 29, 2024",
+      title: "The Importance of Responsive Design: Why Mobile-First is Non-Negotiable",
+      category: "Development",
       image: Blog1,
     },
     {
-      date: "December 12, 2023",
-      title: "Ways of lying to yourself about.",
-      category: "Branding",
+      date: "September 29, 2024",
+      title: "The Power of SEO in Web Development: Building Websites That Rank",
+      category: "Development",
       image: Blog1,
     },
     {
-      date: "December 12, 2023",
-      title: "Ways of lying to yourself about.",
-      category: "Branding",
+      date: "September 29, 2024",
+      title: "Custom Web Development vs. Templates: Which is Right for Your Business?",
+      category: "Development",
       image: Blog1,
     },
   ];
@@ -37,8 +37,8 @@ const Blogs = () => {
         title={"Blog"}
         subtitle={"When asked the question"}
       />
-      <div className="site-content">
-        <section class="space-pt ellipse-top ellipse-bottom">
+      <div className="site-content mt-5 pt-5">
+        <section class="space-pt ellipse-top ellipse-bottom ">
           <div class="container">
             <div class="row justify-content-start">
               <div class="col-lg-12">

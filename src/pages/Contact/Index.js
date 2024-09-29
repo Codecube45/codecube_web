@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../components/common/Navbar";
 import BannerSection from "../../components/common/BannerSection";
 import ContactBanner from "../../assets/images/contact-us.jpg";
@@ -7,10 +7,53 @@ import "../../assets/styles/contact.css";
 import ContactAddress from "../../assets/images/contact-address.png";
 import VerticalLines from "../../components/common/VerticalLines";
 import Footer from "../../components/common/Footer";
+import { axiosInstance } from "../config";
+import Loader from "../../components/common/Loader";
+import { notification } from "antd";
 
 const Index = () => {
+  const [name, setName] = useState("");
+  const [mobile, setMobile] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [isLoading, setLoading] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    const formData = new FormData();
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("phone", mobile);
+    formData.append("details", message);
+    try {
+      const res = await axiosInstance.post("contact", formData, {
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "multipart/form-data",
+        },
+      });
+      setLoading(false)
+      if(res.data.success){
+        notification.open({
+          message: 'Message Received Successfully ',
+          description:
+            'Your message has been sent! 🎉 Thank you for reaching out to us. We’re excited to connect and will get back to you shortly. Stay tuned!',
+          showProgress: true,
+        });
+        setName('')
+        setEmail('')
+        setMessage('')
+        setMobile('')
+      }
+    } catch (err) {
+      console.log(err);
+      setLoading(false);
+    }
+  };
   return (
     <div>
+      {isLoading && <Loader />}
       <Navbar inner={true} />
       <BannerSection
         Banner={ContactBanner}
@@ -101,7 +144,10 @@ const Index = () => {
                     </h2>
                   </div>
                   <div class="form-wrapper">
-                    <form class="contact-form form-style-border">
+                    <form
+                      class="contact-form form-style-border"
+                      onSubmit={handleSubmit}
+                    >
                       <div class="row">
                         <div class="col-md-4">
                           <input
@@ -109,6 +155,9 @@ const Index = () => {
                             class="form-control"
                             placeholder="Name"
                             aria-label="Name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            required
                           />
                         </div>
                         <div class="col-md-4">
@@ -117,6 +166,9 @@ const Index = () => {
                             class="form-control"
                             placeholder="Email"
                             aria-label="Email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
                           />
                         </div>
                         <div class="col-md-4">
@@ -125,6 +177,14 @@ const Index = () => {
                             class="form-control"
                             id="phone"
                             placeholder="Phone"
+                            value={mobile}
+                            onChange={(e) => setMobile(e.target.value)}
+                            onKeyPress={(e) => {
+                              if (!/[0-9]/.test(e.key)) {
+                                e.preventDefault();
+                              }
+                            }}
+                            required
                           />
                         </div>
                         <div class="col-lg-12">
@@ -132,12 +192,15 @@ const Index = () => {
                             class="form-control"
                             rows="6"
                             placeholder="Message"
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                            required
                           ></textarea>
                         </div>
                         <div class="col-lg-12">
                           <div class="attract-hover">
                             <div class="attract-hover-easing">
-                              <a class="btn-effect" href="#">
+                              <button class="btn-effect" href="#">
                                 <span>Send Massage</span>
                                 <svg
                                   width="20"
@@ -169,7 +232,7 @@ const Index = () => {
                                     </clipPath>
                                   </defs>
                                 </svg>
-                              </a>
+                              </button>
                             </div>
                           </div>
                         </div>
