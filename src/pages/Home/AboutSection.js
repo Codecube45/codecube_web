@@ -1,7 +1,11 @@
 import React from "react";
 import About1 from "../../assets/images/about-01.jpg";
 import About3 from "../../assets/images/about-03.jpg";
+import aboutUs from "../../assets/images/about-us.jpg";
+import aboutMax from "../../assets/images/about-max.jpg";
 import Icon from "../../assets/images/subtitle-icon.png";
+import { config } from "../config";
+import { Link } from "react-router-dom";
 
 
 
@@ -16,7 +20,7 @@ const AboutSection = () => {
                 <span class="sub-title">
                   <img class="img-fluid" src={Icon} alt="" /> About Us
                 </span>
-                <h2 class="title "> Your experience is everything to us </h2>
+                <h2 class="title"> Your experience is everything to us </h2>
               </div>
 
               <div class="row">
@@ -26,7 +30,6 @@ const AboutSection = () => {
                 <div class="col-sm-8">
                   <p class="ps-lg-3 mt-4 mt-sm-0 text-white fs-5">
                   we specialize in crafting custom, high-performance websites that deliver results. Our expert team blends cutting-edge technology with user-focused design to create responsive, scalable, and innovative web solutions. Whether you need an e-commerce platform or a dynamic web app, we’re here to help your business thrive in the digital world.
-
                   </p>
                   <div class="d-flex justify-content-center mt-5 ms-sm-5 ms-0">
                     <div class="attract-hover">
@@ -34,7 +37,8 @@ const AboutSection = () => {
                         class="attract-hover-easing"
                         style={{ transform: "translate(0px)" }}
                       >
-                        <a class=" btn-effect" href="#">
+                        {/* <a class=" btn-effect" href="/contact-us"> */}
+                        <Link to={`${config.appUrl}contact-us`} class="btn-effect">
                           <span>Get A Quote</span>
                           <svg
                             width="20"
@@ -66,7 +70,8 @@ const AboutSection = () => {
                               </clipPath>
                             </defs>
                           </svg>
-                        </a>
+                          </Link>
+                        {/* </a> */}
                       </div>
                     </div>
                   </div>
@@ -104,7 +109,7 @@ const AboutSection = () => {
             </div>
 
             <div class="col-lg-5">
-              <img class="img-fluid ps-lg-5" src={About1} alt="#" />
+              <img class="img-fluid ps-lg-5" src={aboutMax} alt="#" />
             </div>
           </div>
         </div>

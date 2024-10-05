@@ -286,6 +286,15 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+.steps{
+  border-radius: 10px;
+}
+
+.phnNo{
+  color: #fff;
+  text-decoration: none;
+}
+
 @media (max-width: 1500px) {
   .header-default .site-menu .main-menu {
     gap: 0 38px;

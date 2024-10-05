@@ -2,6 +2,12 @@ import React from "react";
 import Icon from "../../assets/images/subtitle-icon.png";
 import arrowIcon from "../../assets/images/arrow-right.png";
 import StepOne from "../../assets/images/step-1.png";
+import Steps1 from "../../assets/images/step1.jpg";
+import Steps2 from "../../assets/images/step2.jpg";
+import Steps3 from "../../assets/images/step3.jpg";
+import Steps4 from "../../assets/images/step4.jpg";
+import { config } from "../config";
+import { Link } from "react-router-dom";
 
 const HowItsWork = () => {
   return (
@@ -37,7 +43,8 @@ const HowItsWork = () => {
                       className="attract-hover-easing"
                       style={{ transform: "translate(0px)" }}
                     >
-                      <a className="btn-effect" href="#">
+                      {/* <a className="btn-effect" href="/contact-us"> */}
+                      <Link to={`${config.appUrl}contact-us`} class="btn-effect">
                         <span>Get Started</span>
                         <svg
                           width="20"
@@ -69,7 +76,8 @@ const HowItsWork = () => {
                             </clipPath>
                           </defs>
                         </svg>
-                      </a>
+                        </Link>
+                      {/* </a> */}
                     </div>
                   </div>
                 </div>
@@ -119,7 +127,7 @@ const HowItsWork = () => {
                       </ul>
                     </div> */}
                     <div className="step-image">
-                      <img className="img-fluid" src={StepOne} alt="" />
+                      <img className="img-fluid steps" src={Steps1} alt="" />
                     </div>
                   </div>
                 </div>
@@ -152,7 +160,7 @@ const HowItsWork = () => {
                       </ul>
                     </div> */}
                     <div className="step-image">
-                      <img className="img-fluid" src={StepOne} alt="" />
+                      <img className="img-fluid steps" src={Steps2} alt="" />
                     </div>
                   </div>
                 </div>
@@ -190,7 +198,7 @@ const HowItsWork = () => {
                       </ul>
                     </div> */}
                     <div className="step-image">
-                      <img className="img-fluid" src={StepOne} alt="" />
+                      <img className="img-fluid steps" src={Steps3} alt="" />
                     </div>
                   </div>
                 </div>
@@ -227,7 +235,7 @@ const HowItsWork = () => {
                       </ul>
                     </div> */}
                     <div className="step-image">
-                      <img className="img-fluid" src={StepOne} alt="" />
+                      <img className="img-fluid steps" src={Steps4} alt="" />
                     </div>
                   </div>
                 </div>
@@ -264,7 +272,7 @@ const HowItsWork = () => {
                       </ul>
                     </div> */}
                     <div className="step-image">
-                      <img className="img-fluid" src={StepOne} alt="" />
+                      <img className="img-fluid steps" src={StepOne} alt="" />
                     </div>
                   </div>
                 </div>

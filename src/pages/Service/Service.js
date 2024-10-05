@@ -1,6 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import Navbar from "../../components/common/Navbar";
 import ContactBanner from "../../assets/images/contact-us.jpg";
+import digitalMarketing from "../../assets/images/digital-marketing.jpg";
+import digital from "../../assets/images/digital.jpg";
+import webDevelopment from "../../assets/images/web-development.jpg";
+import web from "../../assets/images/web.jpg";
+import wordpressDeveloper from "../../assets/images/wordpess-developer.jpg";
+import wordpress from "../../assets/images/wordpress.jpg";
 import BannerSection from "../../components/common/BannerSection";
 import Icon from "../../assets/images/subtitle-icon.png";
 import Service1 from "../../assets/images/about-04.jpg";
@@ -41,7 +47,7 @@ const Service = () => {
             <div class="row justify-content-between">
               <div class="col-lg-5 text-lg-center mb-5 mb-lg-0">
                 <div class="about-img position-relative">
-                  <img class="img-fluid" src={Service1} alt="#" />
+                  <img class="img-fluid" src={webDevelopment} alt="#" />
                   <div class="about-logo">
                     <img class="img-fluid" src={Logo} width="60" alt="#" />
                   </div>
@@ -114,7 +120,7 @@ const Service = () => {
                       </div>
                     </div>
                     <div class="col-sm-4 text-sm-end mt-4 mt-sm-0">
-                      <img class="img-fluid" src={ServiceSide} alt="#" />
+                      <img class="img-fluid" src={web} alt="#" />
                     </div>
                   </div>
                 </div>
@@ -196,14 +202,14 @@ const Service = () => {
                       </div>
                     </div>
                     <div class="col-sm-4 text-sm-end mt-4 mt-sm-0">
-                      <img class="img-fluid" src={ServiceSide} alt="#" />
+                      <img class="img-fluid" src={digital} alt="#" />
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-5 text-lg-center mb-5 mb-lg-0">
                 <div class="about-img position-relative">
-                  <img class="img-fluid" src={Service1} alt="#" />
+                  <img class="img-fluid" src={digitalMarketing} alt="#" />
                   <div class="about-logo">
                     <img class="img-fluid" src={Logo} width="60" alt="#" />
                   </div>
@@ -220,7 +226,7 @@ const Service = () => {
             <div class="row justify-content-between">
               <div class="col-lg-5 text-lg-center mb-5 mb-lg-0">
                 <div class="about-img position-relative">
-                  <img class="img-fluid" src={Service1} alt="#" />
+                  <img class="img-fluid" src={wordpressDeveloper} alt="#" />
                   <div class="about-logo">
                     <img class="img-fluid" src={Logo} width="60" alt="#" />
                   </div>
@@ -293,7 +299,7 @@ const Service = () => {
                       </div>
                     </div>
                     <div class="col-sm-4 text-sm-end mt-4 mt-sm-0">
-                      <img class="img-fluid" src={ServiceSide} alt="#" />
+                      <img class="img-fluid" src={wordpress} alt="#" />
                     </div>
                   </div>
                 </div>
