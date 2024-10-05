@@ -184,7 +184,7 @@ const Navbar = ({ inner }) => {
                         <img class="img-fluid" src={Mobile} alt="" />
                       </i>
                       <span class="info">
-                        <span>8849835366  </span>
+                      <span><a href="tel:8849835366" class="phnNo">+91 8849835366</a> </span>
                       </span>
                     </li>
                     <li className="mb-3">
@@ -192,7 +192,7 @@ const Navbar = ({ inner }) => {
                         <img class="img-fluid" src={Email} alt="" />
                       </i>
                       <span class="info">
-                        <span>codecube45@gmail.com</span>
+                      <span><a className="phnNo" href="mailto:codecube45@gmail.com">codecube45@gmail.com</a> </span>
                       </span>
                     </li>
                   </ul>
@@ -235,22 +235,22 @@ const Navbar = ({ inner }) => {
                       </Link>
                     </li>
                     <li class="nav-item ">
-                      <Link to={`${config.appUrl}`} class="nav-link">
+                      <Link to={`${config.appUrl}our-services`} class="nav-link">
                         Our Services
                       </Link>
                     </li>
                     <li class="nav-item ">
-                      <Link to={`${config.appUrl}`} class="nav-link">
+                      <Link to={`${config.appUrl}about-us`} class="nav-link">
                         About Us
                       </Link>
                     </li>
                     <li class="nav-item ">
-                      <Link to={`${config.appUrl}`} class="nav-link">
+                      <Link to={`${config.appUrl}blog`} class="nav-link">
                         Blogs
                       </Link>
                     </li>
                     <li class="nav-item ">
-                      <Link to={`${config.appUrl}`} class="nav-link">
+                      <Link to={`${config.appUrl}contact-us`} class="nav-link">
                         Contact Us
                       </Link>
                     </li>
@@ -258,9 +258,9 @@ const Navbar = ({ inner }) => {
                 </nav>
                 <div class="bottom-info ">
                   <div class="contact-info border-0 pt-0">
-                    <span class="number">+1 234 567 8910</span>
-                    <a class="mail" href="#">
-                      <i class="bi bi-envelope"></i>info@gmail.com
+                    <a href="tel:8849835366" style={{ textDecoration: 'none' }}><span class="number">+91 8849835366</span></a>
+                    <a class="mail" href="mailto:codecube45@gmail.com">
+                      <i class="bi bi-envelope"></i>codecube45@gmail.com
                     </a>
                     <span class="text">
                       Looking for collaboration for your next creative project?

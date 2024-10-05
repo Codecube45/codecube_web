@@ -98,23 +98,23 @@ const Index = () => {
                           </div>
                           <div class="city-info">
                             <h5 class="city-name">
-                              <a href="#">Shanghai</a>
+                              <a href="#">India</a>
                             </h5>
                             <div class="city-location">
-                              <div class="location-item">
+                              {/* <div class="location-item">
                                 <i class="icon bi bi-geo-alt"> </i>
                                 <div class="list-label">
                                   214 West Arnold St. New York, NY 10002
                                 </div>
-                              </div>
+                              </div> */}
                               <div class="location-item">
                                 <i class="icon bi bi-telephone-inbound"></i>
-                                <div class="list-label">+(123) 456-7890</div>
+                                <div class="list-label"><a href="tel:8849835366" className="phnNo">+91 8849835366</a></div>
                               </div>
                               <div class="location-item">
                                 <i class="icon bi bi-envelope"></i>
                                 <div class="list-label">
-                                  letstalk@worthy.com
+                                <a href="mailto:codecube45@gmail.com" className="phnNo">codecube45@gmail.com</a>
                                 </div>
                               </div>
                             </div>

@@ -65,7 +65,7 @@ const Footer = () => {
                         <img class="img-fluid" src={Mobile} alt="" />
                       </i>
                       <span class="info">
-                        <span>8849835366 </span>Mon-fri 8:30am 6:30pm
+                        <span><a href="tel:8849835366" class="phnNo">+91 8849835366</a> </span>Mon-fri 8:30am 6:30pm
                       </span>
                     </li>
                     <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                         <img class="img-fluid" src={Email} alt="" />
                       </i>
                       <span class="info">
-                        <span>codecube45@gmail.com </span>24x7 online support
+                        <span><a className="phnNo" href="mailto:codecube45@gmail.com">codecube45@gmail.com</a> </span>24x7 online support
                       </span>
                     </li>
                   </ul>
@@ -142,7 +142,7 @@ const Footer = () => {
                 <div class="widget widget-info">
                   <h5 class="widget-title">Call Center</h5>
                   <a class="number" href="tel:8849835366">
-                    8849835366
+                    +91 8849835366
                   </a>
                   <h6 class="title">and get a free estimate</h6>
                 </div>

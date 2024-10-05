@@ -2,6 +2,8 @@ import React from "react";
 import Banner1 from "../../assets/images/banner-bg-01.png";
 import BannerShape from "../../assets/images/banner-shape-01.png";
 import "../../assets/styles/banner.css"
+import { Link } from "react-router-dom";
+import { config } from "../config";
 
 const Banner = () => {
   return (
@@ -27,7 +29,8 @@ const Banner = () => {
                       class="attract-hover-easing"
                       style={{ transform: "translate(0px)" }}
                     >
-                      <a class=" btn-effect" href="#">
+                      {/* <a class=" btn-effect" href="/contact-us"> */}
+                      <Link to={`${config.appUrl}contact-us`} class="btn-effect">
                         <span>Get A Quote</span>
                         <svg
                           width="20"
@@ -59,7 +62,8 @@ const Banner = () => {
                             </clipPath>
                           </defs>
                         </svg>
-                      </a>
+                        </Link>
+                      {/* </a> */}
                     </div>
                   </div>
                 </div>
